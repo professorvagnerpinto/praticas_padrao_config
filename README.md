@@ -1,4 +1,4 @@
-# Boas práticas de programação em projetos JS
+# Boas práticas de programação em projetos JS/TS
 
 Exemplo de como utilizar:
 1. ESLint (Linter)
