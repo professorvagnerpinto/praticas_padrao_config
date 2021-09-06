@@ -6,9 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon --watch '**/*.ts' --exec 'ts-node' src/index.ts",
-    "lint": "eslint . --ext .ts",
-    "lint-fix": "eslint . --ext .ts --fix",
-    "format": "prettier --config .prettierrc './*.ts' --write",
+    "lint": "eslint . ",
+    "lint-fix": "eslint . --fix",
+    "format": "prettier --config .prettierrc '.' --write",
     "prepare": "husky install",
     "cz": "cz"
   },
