@@ -11,6 +11,12 @@
     "format": "prettier --config .prettierrc './*.ts' --write",
     "prepare": "husky install"
   },
+  "lint-staged": {
+    "src/**/*.ts": [
+      "yarn lint",
+      "yarn format"
+    ]
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
